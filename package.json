@@ -6,9 +6,11 @@
   "license": "MIT",
   "dependencies": {
     "@fortaine/fetch-event-source": "^3.0.6",
-    "minimist": "^1.2.8"
+    "minimist": "^1.2.8",
+    "node-fetch": "^3.3.2"
   },
   "bin": {
+    "gt": "./bin/gpt-translate.js",
     "gtrans": "./bin/gpt-translate.js",
     "gpt-translate": "./bin/gpt-translate.js"
   }

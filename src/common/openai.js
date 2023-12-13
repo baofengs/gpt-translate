@@ -5,6 +5,8 @@ import {
   fetchEventSource,
 } from '@fortaine/fetch-event-source';
 
+import fetch from 'node-fetch';
+
 import { LogLevel, log } from './log.js';
 
 export class ChatGPTApi {

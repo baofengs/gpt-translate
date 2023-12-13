@@ -1,6 +1,9 @@
 #!/usr/bin/env node
 
 import { translate } from '../src/index.js';
+import minimist from 'minimist';
 
-const text = process.argv[2] || '';
+const args = minimist(process.argv.slice(2))
+const text = args._.join(' ')
+
 translate(text);
